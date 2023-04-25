@@ -1,0 +1,169 @@
+:root {
+  --main-background-color: #ffffff;
+  --main-text-color: #434455;
+  --main-title-color: #2e2f42;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: var(--main-text-color);
+  background-color: var(--main-background-color);
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+.link-item:hover,
+.link-item:focus {
+  color: #404bbf;
+}
+.feedback:hover,
+.feedback:focus {
+  color: #404bbf;
+}
+/* ===========Шапка=========== */
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.main-logo {
+  color: var(--main-title-color);
+}
+.nav-menu {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.link-item {
+  color: var(--main-title-color);
+}
+.feedback-menu {
+  font-style: normal;
+}
+.feedback {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+/* ===========/Шапка=========== */
+
+/* Index */
+/* ===========Hero=========== */
+.hero {
+  background-color: var(--main-title-color);
+}
+.main-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
+}
+.main-btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: #4d5ae5;
+}
+
+.main-btn:hover,
+.main-btn:focus {
+  background-color: #404bbf;
+  cursor: pointer;
+}
+/* ===========/Hero=========== */
+
+.skill-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--main-title-color);
+}
+.skill-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.minor-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--main-title-color);
+}
+.team-section {
+  background-color: #f4f4fd;
+}
+.team-list-item {
+  background-color: #ffffff;
+}
+.employee-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--main-title-color);
+}
+.job-title {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* Portfolio */
+.btn-menu-item {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: #f4f4fd;
+  color: #4d5ae5;
+}
+.btn-menu-item:hover,
+.btn-menu-item:focus {
+  background-color: #404bbf;
+  color: #ffffff;
+  cursor: pointer;
+}
+/* Footer */
+footer {
+  background-color: var(--main-title-color);
+}
+.footer-logo {
+  color: #f4f4fd;
+}
+.footer-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+.examples-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--main-title-color);
+}
+.examples-text-item {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
