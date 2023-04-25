@@ -3,11 +3,36 @@
   --main-text-color: #434455;
   --main-title-color: #2e2f42;
 }
+/* ===========Default=========== */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+}
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   color: var(--main-text-color);
   background-color: var(--main-background-color);
+}
+.container {
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1158px;
 }
 .link {
   text-decoration: none;
@@ -15,6 +40,7 @@ body {
 .list {
   list-style: none;
 }
+/* ===========/Default=========== */
 .link-item:hover,
 .link-item:focus {
   color: #404bbf;
