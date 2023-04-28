@@ -28,12 +28,6 @@ body {
   color: var(--main-text-color);
   background-color: var(--main-background-color);
 }
-.container {
-  margin-top: 0;
-  margin-left: auto;
-  margin-right: auto;
-  width: 1158px;
-}
 .link {
   text-decoration: none;
 }
