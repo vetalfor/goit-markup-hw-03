@@ -95,12 +95,10 @@ body {
 .link-item {
   color: var(--main-title-color);
 }
-.header-feedback {
-  display: flex;
-  margin-left: auto;
-}
 .feedback-menu {
   font-style: normal;
+  display: flex;
+  margin-left: auto;
 }
 .feedback-list {
   display: flex;
