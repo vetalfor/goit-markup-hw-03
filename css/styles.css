@@ -14,7 +14,8 @@ p {
   margin-top: 0;
   margin-bottom: 0;
 }
-ul {
+ul,
+ol {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
@@ -28,13 +29,19 @@ body {
   color: var(--main-text-color);
   background-color: var(--main-background-color);
 }
+.container {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 .link {
   text-decoration: none;
 }
 .list {
   list-style: none;
 }
-/* ===========/Default=========== */
 .link-item:hover,
 .link-item:focus {
   color: #404bbf;
@@ -43,13 +50,35 @@ body {
 .feedback:focus {
   color: #404bbf;
 }
+.btn-menu-item:hover,
+.btn-menu-item:focus {
+  background-color: #404bbf;
+  color: #ffffff;
+  cursor: pointer;
+}
+/* ===========/Default=========== */
+
 /* ===========Шапка=========== */
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.site-nav {
+  display: flex;
+  align-items: center;
+}
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  margin-right: 76px;
   text-transform: uppercase;
   color: #4d5ae5;
 }
@@ -57,15 +86,25 @@ body {
   color: var(--main-title-color);
 }
 .nav-menu {
+  display: flex;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  gap: 40px;
 }
 .link-item {
   color: var(--main-title-color);
 }
+.header-feedback {
+  display: flex;
+  margin-left: auto;
+}
 .feedback-menu {
   font-style: normal;
+}
+.feedback-list {
+  display: flex;
+  gap: 40px;
 }
 .feedback {
   font-family: 'Roboto', sans-serif;
@@ -97,8 +136,9 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
-
 .main-btn:hover,
 .main-btn:focus {
   background-color: #404bbf;
@@ -151,12 +191,6 @@ body {
   letter-spacing: 0.04em;
   background-color: #f4f4fd;
   color: #4d5ae5;
-}
-.btn-menu-item:hover,
-.btn-menu-item:focus {
-  background-color: #404bbf;
-  color: #ffffff;
-  cursor: pointer;
 }
 /* Footer */
 footer {
