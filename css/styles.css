@@ -39,7 +39,6 @@ body {
   text-decoration: none;
 }
 .list {
-  flex-wrap: wrap;
   padding-left: 0;
   margin-top: 0;
   margin-bottom: 0;
@@ -62,8 +61,6 @@ body {
 
 /* ===========Шапка=========== */
 .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
 }
 .header-container {
@@ -96,6 +93,7 @@ body {
   gap: 40px;
 }
 .link-item {
+  display: flex;
   padding: 24px 0;
   color: var(--main-title-color);
 }
@@ -209,6 +207,7 @@ body {
   padding-bottom: 120px;
 }
 .specialization-list {
+  display: flex;
   gap: 24px;
 }
 
@@ -238,6 +237,7 @@ body {
   background-color: var(--main-secodary-text-color);
 }
 .team-list {
+  display: flex;
   gap: 24px;
 }
 .team-list:last-child {
@@ -279,6 +279,7 @@ body {
   padding: 96px 0 120px;
 }
 .btn-menu-list {
+  display: flex;
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
@@ -340,14 +341,11 @@ body {
 }
 .main-logo-footer {
   display: inline-block;
-  margin-right: 76px;
   margin-bottom: 16px;
 }
 .footer-logo-right {
   align-items: center;
   padding: 0px;
-  width: 115px;
-  height: 24px;
   color: var(--main-secodary-text-color);
 }
 .footer-text {
